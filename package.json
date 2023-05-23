@@ -5,8 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run start",
-    "deploy": "gh-pages -d build",
+    "build": "cd server && npm install && ../client && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd server && node dist/main"
   },
