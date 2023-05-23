@@ -10,6 +10,7 @@
     "start": "cd server && node dist/main"
   },
   "dependencies": {
+    "@nestjs/cli": "^9.0.0",
     "@nestjs/axios": "^2.0.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",
