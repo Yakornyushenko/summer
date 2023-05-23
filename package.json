@@ -8,7 +8,7 @@
     "predeploy": "npm run start",
     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd server && node dist/main.d.ts"
+    "start": "cd server && node dist/main"
   },
   "dependencies": {
     "@nestjs/axios": "^2.0.0",
