@@ -17,4 +17,4 @@ WORKDIR /app
 COPY --from=client /app/client/build ./client/build
 COPY --from=server /app/server/dist ./server
 EXPOSE 5000
-CMD ["npm", "run", "start:prod"]
+CMD ["npm", "run", "server:prod"]
