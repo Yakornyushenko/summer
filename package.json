@@ -1,9 +1,12 @@
 {
+  "homepage": "https://Yakornyushenko.github.io/nsummer",
   "name": "summer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run start",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd server && node dist/main.d.ts"
   },
@@ -24,5 +27,8 @@
   "engines": {
     "node": "18.16.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
