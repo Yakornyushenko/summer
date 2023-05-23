@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd server && npm install && nest build && cd ../client && npm install && npm run build",
+    "build": "cd server && npm install && cd ../client && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd server && node dist/main.ts"
   },
