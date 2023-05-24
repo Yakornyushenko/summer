@@ -5,7 +5,7 @@ export const getVacancy = async (id) => {
     return data
 }
 export const getCategories = async () => {
-    const {data} = await axios.get('https://summer-startup.onrender.com/catalogues/')
+    const {data} = await axios.get('https://summer-startup.onrender.com/api/catalogues/')
     return data
 }
 export const getVacancies = async ( accessToken, page, count, keyword, catalogues, payment_from, payment_to ) => {
