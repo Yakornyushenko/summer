@@ -9,6 +9,7 @@
     "start:prod": "cd server && nest build && node dist/main"
   },
   "dependencies": {
+    "@nestjs/serve-static": "^3.0.1",
     "@nestjs/cli": "^9.0.0",
     "@nestjs/axios": "^2.0.0",
     "@nestjs/common": "^9.0.0",
